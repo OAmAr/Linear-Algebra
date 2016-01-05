@@ -1,17 +1,25 @@
 to do
--New Class to hold terms showing dimensions
--New Class can initiate any size
-	- List? First two show dimension, third is list containing array are lists of rows or columns
-		check to make sure lenghts match, i.e. length of list should match 1st term, 
-		length of each element list should match second
-		[2, 2 ([1 2] [2 1])]
 -Add Multiplication
 	- dot
 	- cross
 -Only Show Float when Necessary
+	shouldn't be an issue anymore, matrix enumerates, does't print. further testing
+-GUI
+-Use Factory instead of __new__ to check object
 -More
 
-Version 0.2/toDo
+Version 0.3
+	Added Matrix Class, takes any dimensions and stores dimensions
+		Stored as list, (w, h, [ (column1) (column2)...])
+	Added Matrix Class Functions
+		Added __new__ to dictate if object constructed
+		Added Generalized combine function
+		Added Add function
+		Added Sub function
+		Added Display function
+		Added scalar multiplication
+
+Version 0.2
 	-Added Magnitude and Unit Functions
 	-Finished Show Unit form Function
 	-Added General Combination Function
